@@ -455,8 +455,8 @@ a.button:hover, a.button:visited, a.button:active, a.button:focus {
   background: #3a3a3a;
   font-size: 1.1em; }
 
-.answers .button.disabled {
-  pointer-events: none; }
+.results.hide {
+  opacity: 0; }
 
 .results {
   max-width: 800px;
@@ -479,5 +479,10 @@ a.button:hover, a.button:visited, a.button:active, a.button:focus {
 
 .results .c3 {
   color: #2880b9; }
+
+.answers .button.disabled {
+  pointer-events: none;
+  background: #ddd;
+  color: #2a2a2a; }
 
 /*# sourceMappingURL=styles.css.map*/

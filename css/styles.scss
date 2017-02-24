@@ -17,7 +17,6 @@ $sec4: #45b29d;
   }
 }
 
-
 .show-mobile{
   
   display: none;
@@ -458,8 +457,9 @@ min-height:100vh
   font-size: 1.1em;
 }
 
-.answers .button.disabled{
-  pointer-events: none;
+
+.results.hide{
+  opacity: 0;
 }
 
 .results{
@@ -489,4 +489,10 @@ min-height:100vh
 
 .results .c3{
   color: $sec1
+}
+
+.answers .button.disabled{
+  pointer-events: none;
+  background: #ddd;
+  color: #2a2a2a;
 }

@@ -67,6 +67,7 @@
 	  getQuestion(question_counter)
 	  $('body').on('click','.answers .button',function(){
 	    $('.answers .button').addClass('disabled')
+	    $(this).removeClass('disabled')
 	    updateSentence($(this).attr("data-which"))
 	    $('.next.button').removeClass('hide')
 	     $('.next.button').on('click',function(){
@@ -83,13 +84,13 @@
 	    $('.counter .card-number').html(index+1)
 	    $('.next.button').addClass('hide')
 	    $('.quiz .question').html(data[question_counter]['question'])
-	    $('.results').css('display','none')
+	    $('.results').addClass('hide')
 	    data[question_counter]['options'].forEach(function(e,i){
 	      $('.answers').append('<div class="button c'+(i+1)+'" data-which="'+i+'">'+e.opt+"</div>")
 	    })
 	  }
 	  function updateSentence(index){
-	    $('.results').css('display','block')
+	    $('.results').removeClass('hide')
 	    $('.results p').html(data[question_counter]['options'][index]['response'])
 	  }
 	});
