@@ -347,15 +347,6 @@ p.result-text {
   text-align: center;
   margin-bottom: 10px; }
 
-.band-name {
-  text-align: center;
-  font-size: 2em;
-  font-style: italic;
-  margin-bottom: 20px; }
-
-.gif img {
-  min-width: 100%; }
-
 .button {
   width: 100%;
   margin: 0 auto;
@@ -364,26 +355,18 @@ p.result-text {
   font-size: 1.7em;
   cursor: pointer;
   margin-top: 10px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border: #2880b9 2px solid;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   -moz-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  color: #fff; }
+  color: #2880b9; }
 
 .button:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
 
-.button.c1 {
-  background: #45b29d; }
-
-.button.c2 {
-  background: #e74c3c; }
-
-.button.c3 {
-  background: #2880b9; }
-
-.button.c4 {
-  background: #FFB155; }
+.button:hover, .button.enabled {
+  background: #2880b9;
+  color: #fff; }
 
 .button.next-card {
   background: #2980b9; }
@@ -393,12 +376,6 @@ p.result-text {
 
 .button.twitter {
   background: #4099ff; }
-
-.button.results-card, .button.play, .play-again {
-  background: #2880b9; }
-
-a.button {
-  display: block; }
 
 a.button:hover, a.button:visited, a.button:active, a.button:focus {
   color: #fff;
@@ -449,12 +426,6 @@ a.button:hover, a.button:visited, a.button:active, a.button:focus {
   width: 90%;
   font-size: 1.3em; }
 
-.next.button {
-  max-width: 800px;
-  width: 90%;
-  background: #3a3a3a;
-  font-size: 1.1em; }
-
 .results.hide {
   opacity: 0; }
 
@@ -471,18 +442,15 @@ a.button:hover, a.button:visited, a.button:active, a.button:focus {
 .button.play {
   font-size: 1.3em; }
 
-.results .c1 {
-  color: #45b29d; }
-
-.results .c2 {
-  color: #e74c3c; }
-
-.results .c3 {
-  color: #2880b9; }
+.next.button {
+  max-width: 800px;
+  width: 90%;
+  background: #3a3a3a;
+  font-size: 1.1em;
+  border-color: #3a3a3a;
+  color: white; }
 
 .answers .button.disabled {
-  pointer-events: none;
-  background: #ddd;
-  color: #2a2a2a; }
+  pointer-events: none; }
 
 /*# sourceMappingURL=styles.css.map*/

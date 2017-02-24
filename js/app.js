@@ -7,8 +7,6 @@ $(".play").click(function(){
   }, 500);
 });
 
-var question_counter = 0
-
 $(".button").click(function(){
   setTimeout(function(){
     $(document).scrollTop(0);
@@ -18,16 +16,19 @@ $(".button").click(function(){
 
 $.getJSON("data/data.json", function(data){
   $('.total-number').html(data.length)
+  question_counter = parseInt($('.quiz').attr('data-question'))
   getQuestion(question_counter)
   $('body').on('click','.answers .button',function(){
     $('.answers .button').addClass('disabled')
     $(this).removeClass('disabled')
+    $(this).addClass('enabled')
+    question_counter = parseInt($('.quiz').attr('data-question'))
     updateSentence($(this).attr("data-which"))
     $('.next.button').removeClass('hide')
      $('.next.button').on('click',function(){
-      if(question_counter<(data.length-1)){
-        question_counter=question_counter+1
-        getQuestion(question_counter)
+      $('.quiz').attr('data-question',question_counter+1)
+      if(parseInt($('.quiz').attr('data-question'))<(data.length)){
+        getQuestion(parseInt($('.quiz').attr('data-question')))
       } else {
         $('.next.button').html('Review')
       }
@@ -37,15 +38,18 @@ $.getJSON("data/data.json", function(data){
     $('.answers').html('')
     $('.counter .card-number').html(index+1)
     $('.next.button').addClass('hide')
-    $('.quiz .question').html(data[question_counter]['question'])
+    $('.quiz .question').html(data[index]['question'])
     $('.results').addClass('hide')
-    data[question_counter]['options'].forEach(function(e,i){
+    data[index]['options'].forEach(function(e,i){
       $('.answers').append('<div class="button c'+(i+1)+'" data-which="'+i+'">'+e.opt+"</div>")
     })
+    if (index==data.length){
+      $('.next.button').html('Review')
+    }
   }
   function updateSentence(index){
     $('.results').removeClass('hide')
-    $('.results p').html(data[question_counter]['options'][index]['response'])
+    $('.results p').html(data[index]['options'][index]['response'])
   }
 });
 
