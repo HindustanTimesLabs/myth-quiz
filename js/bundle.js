@@ -50,6 +50,8 @@
 	  $(".intro").fadeOut();
 	  setTimeout(function(){
 	    $(".quiz").fadeIn();
+	    var pos = $(".copy-container").offset();
+	     $('html, body').animate({scrollTop:(pos.top)}, 600);
 	  }, 500);
 	});
 	
@@ -60,7 +62,9 @@
 	
 	});
 	
+	
 	$.getJSON("data/data.json", function(data){
+	   var pos = $(".copy-container").offset();
 	  $('.total-number').html(data.length)
 	  question_counter = parseInt($('.quiz').attr('data-question'))
 	  getQuestion(question_counter)
@@ -72,11 +76,14 @@
 	    updateSentence($(this).attr("data-which"))
 	    $('.next.button').removeClass('hide')
 	     $('.next.button').on('click',function(){
+	      $('html, body').animate({scrollTop:(pos.top)}, 600);
 	      $('.quiz').attr('data-question',question_counter+1)
 	      if(parseInt($('.quiz').attr('data-question'))<(data.length)){
 	        getQuestion(parseInt($('.quiz').attr('data-question')))
-	      } else {
-	        $('.next.button').html('Review')
+	      }else{
+	        $('.quiz').attr('data-question',"0")
+	        getQuestion(0)
+	        $('.next.button').html('Next question')
 	      }
 	    })
 	  })
@@ -89,13 +96,14 @@
 	    data[index]['options'].forEach(function(e,i){
 	      $('.answers').append('<div class="button c'+(i+1)+'" data-which="'+i+'">'+e.opt+"</div>")
 	    })
-	    if (index==data.length){
-	      $('.next.button').html('Review')
+	    if (index==(data.length-1)){
+	      $('.next.button').html('Take the quiz again')
 	    }
 	  }
 	  function updateSentence(index){
 	    $('.results').removeClass('hide')
-	    $('.results p').html(data[index]['options'][index]['response'])
+	    var curr = parseInt($('.quiz').attr('data-question'))
+	    $('.results p').html(data[curr]['options'][index]['response'])
 	  }
 	});
 	

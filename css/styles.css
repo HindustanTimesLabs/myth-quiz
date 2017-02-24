@@ -38,10 +38,9 @@ a {
   margin-left: auto;
   margin-right: auto;
   text-align: center; }
-  @media (max-width: 480px) {
+  @media (max-width: 800px) {
     .lead-img {
       width: 100%;
-      max-width: 140px;
       height: auto; } }
 
 .hide-desktop {
@@ -125,7 +124,7 @@ body {
       .story .headline-container {
         font-size: 0.8em; } }
   .story .headline {
-    padding: 0.7em 0;
+    padding: 0.2em 0 0.7em 0;
     font-size: 2.3em;
     margin-left: auto;
     margin-right: auto;
@@ -339,8 +338,7 @@ p.result-text {
 .quiz-wrapper {
   width: 90%;
   max-width: 800px;
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: 20px auto 3em auto;
   min-height: 100vh; }
 
 .counter {
@@ -425,14 +423,22 @@ a.button:hover, a.button:visited, a.button:active, a.button:focus {
 .answers .button {
   width: 90%;
   font-size: 1.3em; }
+  @media (max-width: 600px) {
+    .answers .button {
+      font-size: 1.1em; } }
 
 .results.hide {
   opacity: 0; }
 
+.card-number, .total-number {
+  font-weight: bold;
+  color: #2880b9; }
+
 .results {
   max-width: 800px;
   width: 90%;
-  font-size: 1.2em;
+  font-size: 1.1em;
+  line-height: 1.7em;
   margin: 2em auto; }
 
 .next.button.hide {
@@ -452,5 +458,15 @@ a.button:hover, a.button:visited, a.button:active, a.button:focus {
 
 .answers .button.disabled {
   pointer-events: none; }
+
+p.intro-quiz {
+  color: #2880b9;
+  margin-top: 1em;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase; }
+
+.copy-container a {
+  color: #008080; }
 
 /*# sourceMappingURL=styles.css.map*/

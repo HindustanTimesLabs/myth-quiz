@@ -53,15 +53,15 @@ a{
 
 .img-container{
     text-align: center;
+
 }
 .lead-img{
     height: 450px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    @media(max-width: 480px){
+    @media(max-width: 800px){
         width: 100%;
-        max-width: 140px;
         height: auto;
     }
 }
@@ -160,7 +160,7 @@ body{
         }
     }
     .headline{
-        padding: 0.7em 0;
+        padding: 0.2em 0 0.7em 0;
         font-size: 2.3em;
         margin-left: auto;
         margin-right: auto;
@@ -428,9 +428,8 @@ text-align: center;
 .quiz-wrapper{
     width: 90%;
     max-width: 800px;
-margin:0 auto;
-margin-top:20px;
-min-height:100vh
+margin:20px auto 3em auto;
+min-height:100vh;
 }
 
 .counter{text-align:center;margin-bottom:10px}
@@ -466,19 +465,29 @@ min-height:100vh
 .answers .button{
   width: 90%;
   font-size: 1.3em;
+  @media(max-width: 600px){
+  font-size: 1.1em;
+  }
 }
-
-
 
 .results.hide{
   opacity: 0;
 }
 
+.card-number,.total-number{
+  font-weight: bold;
+  color: $sec1
+}
+
 .results{
   max-width: 800px;
   width: 90%;
-  font-size: 1.2em;
+  font-size: 1.1em;
+    line-height: 1.7em;
   margin: 2em auto;
+  @media(max-width: 600px){
+    
+  }
 }
 
 .next.button.hide{
@@ -502,4 +511,16 @@ min-height:100vh
 
 .answers .button.disabled{
   pointer-events: none;
+}
+
+p.intro-quiz{
+  color: $sec1;
+  margin-top: 1em;
+  font-weight: bold;
+  font-family: $block;
+  text-transform: uppercase;
+}
+
+.copy-container a{
+  color: $link;
 }
