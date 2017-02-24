@@ -108,9 +108,6 @@ body {
   padding-top: 2em; }
   .copy-container p {
     margin-bottom: 1.5em; }
-  @media (max-width: 1300px) {
-    .copy-container {
-      padding-top: 0.5em; } }
 
 .story {
   padding-top: 40px; }
@@ -298,9 +295,6 @@ section h2 {
     .footer-basic-centered .footer-links, .footer-basic-centered .footer-company-name {
       float: none; } }
 
-.copy-container p.ins, .copy-container p.player-money, .copy-container p.result-text {
-  margin: 0; }
-
 p.result-text {
   margin-top: 0.7em !important; }
 
@@ -448,6 +442,9 @@ a.button:hover, a.button:visited, a.button:active, a.button:focus {
 .num {
   font-weight: bold; }
 
+.answers {
+  min-height: 150px; }
+
 .answers .button {
   width: 90%;
   font-size: 1.3em; }
@@ -470,5 +467,17 @@ a.button:hover, a.button:visited, a.button:active, a.button:focus {
 .next.button.hide {
   opacity: 0;
   pointer-events: none; }
+
+.button.play {
+  font-size: 1.3em; }
+
+.results .c1 {
+  color: #45b29d; }
+
+.results .c2 {
+  color: #e74c3c; }
+
+.results .c3 {
+  color: #2880b9; }
 
 /*# sourceMappingURL=styles.css.map*/
