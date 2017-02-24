@@ -52,12 +52,13 @@ $.getJSON("data/data.json", function(data){
     })
     if (index==(data.length-1)){
       $('.next.button').html('Take the quiz again')
+      $('.final').removeClass('hide')
     }
   }
   function updateSentence(index){
     $('.results').removeClass('hide')
     var curr = parseInt($('.quiz').attr('data-question'))
-    $('.results p').html(data[curr]['options'][index]['response'])
+    $('.results').html(data[curr]['options'][index]['response'])
   }
 });
 

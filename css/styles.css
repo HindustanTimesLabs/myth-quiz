@@ -59,7 +59,8 @@ body {
   font-family: "PT Serif", serif;
   background-color: #fff;
   color: #3a3a3a;
-  position: relative; }
+  position: relative;
+  min-height: 100vh; }
 
 .photo-container {
   text-align: center;
@@ -338,8 +339,7 @@ p.result-text {
 .quiz-wrapper {
   width: 90%;
   max-width: 800px;
-  margin: 20px auto 3em auto;
-  min-height: 100vh; }
+  margin: 20px auto 10em auto; }
 
 .counter {
   text-align: center;
@@ -456,17 +456,67 @@ a.button:hover, a.button:visited, a.button:active, a.button:focus {
   border-color: #3a3a3a;
   color: white; }
 
+.final.hide {
+  display: none; }
+
 .answers .button.disabled {
   pointer-events: none; }
 
 p.intro-quiz {
   color: #2880b9;
   margin-top: 1em;
+  font-size: 1.2em;
   font-weight: bold;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase; }
 
 .copy-container a {
   color: #008080; }
+
+.social-shares {
+  margin: 0 auto 1em auto;
+  text-align: center; }
+
+.social-shares .social {
+  border-radius: 6px;
+  padding: 0.5em 1em;
+  width: 150px;
+  display: inline-block;
+  text-align: left;
+  color: white;
+  font-style: italic;
+  font-size: 1.3em;
+  margin: 0 10px;
+  cursor: pointer; }
+
+.social-shares .social i {
+  font-size: 1.2em;
+  vertical-align: middle;
+  margin-right: 20px; }
+
+.social-shares .social.facebook {
+  background-color: #3B5998;
+  border: solid 2px #3B5998; }
+
+.social-shares .social.twitter {
+  background-color: #1DA1F2;
+  border: solid 2px #1DA1F2; }
+
+.social-shares .social.whatsapp {
+  background-color: #43D854;
+  border: solid 2px #43D854;
+  display: none; }
+
+.social-shares .social:hover {
+  background-color: #fafafa !important; }
+
+.social-shares .social.facebook:hover {
+  color: #3B5998; }
+
+.social-shares .social.twitter:hover {
+  color: #1DA1F2; }
+
+.social-shares .social.whatsapp:hover {
+  color: #43D854; }
 
 /*# sourceMappingURL=styles.css.map*/

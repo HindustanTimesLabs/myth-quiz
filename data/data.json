@@ -4,11 +4,11 @@
     "options":[
         {
             "opt":"Yes",
-            "response":"Don’t be so sure. The FIR registered at the Vasant Vihar police station on February 9 has <span class='c1'>NO mention of Kanhaiya Kumar.</span>"
+            "response":"Don’t be so sure. The FIR registered at the Vasant Vihar police station in February 2016 has <b>no mention</b> of Kanhaiya Kumar."
         },
         {
             "opt":"No",
-            "response":"There is no documented evidence. The FIR registered at the Vasant Vihar police station on February 9 has <span class='c1'>NO mention of Kanhaiya Kumar.</span>"
+            "response":"There is no documented evidence. The FIR registered at the Vasant Vihar police station in February 2016 has <b>no mention</b> of Kanhaiya Kumar."
         }
     ]
 },
@@ -17,36 +17,36 @@
     "options":[
         {
             "opt":"Yes, he did, and escaped when police filed a case against him.",
-            "response":"<span class='c1'>The FIR says police watched video footage on Zee News in which students were shouting slogans. The group which shouted “anti-India” slogans was led by Umar Khalid.</span><span class='c2'> Khalid has denied these allegations and questions have been raised on authenticity of the video.</span>"
+            "response":"The FIR says police watched video footage on Zee News in which students were shouting slogans. The group which shouted “anti-India” slogans was led by Umar Khalid. Khalid has denied these allegations and questions have been raised on the authenticity of the video."
         },
         {
             "opt":"No, the allegations were baseless. He wasn’t involved in any kind of sloganeering.",
-            "response":"<span class='c1'>The FIR says police watched video footage on Zee News in which students were shouting slogans. The group which shouted “anti-India” slogans was led by Umar Khalid.</span><span class='c2'> Khalid has denied these allegations and questions have been raised on authenticity of the video.</span>"
+            "response":"The FIR says police watched video footage on Zee News in which students were shouting slogans. The group which shouted “anti-India” slogans was led by Umar Khalid. Khalid has denied these allegations and questions have been raised on the authenticity of the video."
         },
         {
             "opt":"I am not sure.",
-            "response": "<span class='c1'>The FIR says police watched video footage on Zee News in which students were shouting slogans. The group which shouted “anti-India” slogans was led by Umar Khalid.</span><span class='c2'> Khalid has denied these allegations and questions have been raised on authenticity of the video.</span>"
+            "response": "The FIR says police watched video footage on Zee News in which students were shouting slogans. The group which shouted “anti-India” slogans was led by Umar Khalid. Khalid has denied these allegations and questions have been raised on the authenticity of the video."
         }
     ]
 },
 {
-    "question":"If the FIR was based on a what the police saw on Zee news, how authentic is that video clip?",
+    "question":"If the FIR was based on what the police saw on Zee News, how authentic is that video clip?",
     "options":[
         {
             "opt":"Lab reports show that the video was authentic.",
-            "response":"<span class='c1'>Yes, the footage was sent to the central forensic science laboratory, which has reportedly denied charges of tampering.</span> <span class='c2'>However, a journalist working with Zee News accused the channel of tampering with the footage. The channel denied the allegations. </span><span class = 'c3'>But here is the key point: the police are yet to officially confirm/deny this or inform the court. </span><br><br><span class = 'c4'>Either way, although Khalid is visible in the clip, he isn’t seen shouting slogans. Both Khalid and Kanhaiya have claimed in interviews that ‘unknown faces’ had visited JNU that evening.</span>"
+            "response":"Yes, the footage was sent to the central forensic science laboratory, which has reportedly denied charges of tampering. However, a journalist working with Zee News accused the channel of tampering with the footage. The channel denied the allegations. The <b>police are yet to officially confirm/deny this</b> or inform the court. <br><br>Either way, although Khalid is visible in the clip, he isn’t seen shouting slogans. Both Khalid and Kanhaiya have claimed in interviews that ‘unknown faces’ had visited JNU that evening."
         },
         {
-            "opt":"The video was tempered with.",
-            "response":"<span class='c2'>A journalist working with Zee News accused the channel of tampering with the footage but the channel denied the allegations.</span> <span class = 'c1'> The footage was then sent to the central forensic science laboratory, which has reportedly denied charges of tampering. </span> <span class = 'c3'>But here is the key point: the police are yet to officially confirm/deny this or inform the court. </span><br><span class='c4'><br>Either way, although Khalid is visible in the clip, he isn’t seen shouting slogans. Both Khalid and Kanhaiya have claimed in interviews that ‘unknown faces’ had visited JNU that evening.</span>"
+            "opt":"The video was tampered with.",
+            "response":"A journalist working with Zee News accused the channel of tampering with the footage but the channel denied the allegations. The footage was then sent to the central forensic science laboratory, which has reportedly denied charges of tampering. The <b>police are yet to officially confirm/deny this</b> or inform the court. <br <br>Either way, although Khalid is visible in the clip, he isn’t seen shouting slogans. Both Khalid and Kanhaiya have claimed in interviews that ‘unknown faces’ had visited JNU that evening."
         },
         {
             "opt":"Not sure as the police haven’t reached any conclusion yet",
-            "response":"Well, we would say this is the best choice. Good job. <span class='c3'>The police are yet to officially confirm/deny this or inform the court.</span> <br> <br>Here is what we know: <span class='c2'> A journalist working with Zee News accused the channel of tampering with the footage but the channel denied the allegations. </span> <span class='c1'>The footage was sent to the central forensic science laboratory, which has reportedly denied charges of tampering. </span> <span class='c4'>Either way, although Khalid is visible in the clip, he isn’t seen shouting slogans. Both Khalid and Kanhaiya have claimed in interviews that ‘unknown faces’ had visited JNU that evening.</span>"
+            "response":"Well, we would say this is the best choice. Good job. The <b>police are yet to officially confirm/deny this</b> or inform the court.<br> <br>Here is what we know: A journalist working with Zee News accused the channel of tampering with the footage but the channel denied the allegations. The footage was sent to the central forensic science laboratory, which has reportedly denied charges of tampering. Either way, although Khalid is visible in the clip, he isn’t seen shouting slogans. Both Khalid and Kanhaiya have claimed in interviews that ‘unknown faces’ had visited JNU that evening."
         },
         {
             "opt":"What has this got to do with Khalid?",
-            "response":"We know why you are saying this. <span class='c4'>Though Umar Khalid is visible in the clip, he isn’t seen shouting slogans. Both Khalid and Kanhaiya have claimed in interviews that ‘unknown faces’ had visited JNU that evening.</span> <br><br>As for the video, here is what we know: <span class='c2'> A journalist working with Zee News accused the channel of tampering with the footage but the channel denied the allegations. </span> <span class='c1'>The footage was sent to the central forensic science laboratory, which has reportedly denied charges of tampering. </span><span class='c3'>But the police are yet to officially confirm/deny this or inform the court.</span>"
+            "response":"We know why you are saying this. Though Umar Khalid is visible in the clip, he isn’t seen shouting slogans. Both Khalid and Kanhaiya have claimed in interviews that ‘unknown faces’ had visited JNU that evening.<br><br>As for the video, here is what we know: A journalist working with Zee News accused the channel of tampering with the footage but the channel denied the allegations. The footage was sent to the central forensic science laboratory, which has reportedly denied charges of tampering. But the <b>police are yet to officially confirm/deny this</b> or inform the court."
         }   
     ]
 },
@@ -55,24 +55,24 @@
     "options":[
         {
             "opt":"Yes. Acquitted and free of all charges.",
-            "response":"That's not correct. They are out on bail. They will be acquitted only if the police close the case  or the High court quashes the FIR.  According to law, the police should have filed a chargesheet against them within 3 months of their arrest. But they did not. Until the chargesheet is filed, the case cannot go to trial."
+            "response":"That's not correct. <b>They are out on bail.</b> They will be acquitted only if the police close the case or the High court quashes the FIR. According to law, the police should have filed a chargesheet against them within 3 months of their arrest. But they did not. <b>Until the chargesheet is filed, the case cannot go to trial.</b>"
         },
         {
             "opt":"No, not yet. They are out on bail.",
-            "response":"You are right. They are out on bail. They will be acquitted only if the police close the case or the High court quashes the FIR. According to law, the police should have filed a chargesheet against them within 3 months of their arrest. But they did not. Until the chargesheet is filed, the case cannot go to trial."
+            "response":"You are right. They are out on bail. They will be acquitted <b>only if the police close the case or the High court quashes the FIR.</b> According to law, the police should have filed a chargesheet against them within 3 months of their arrest. But they did not. Until the chargesheet is filed, the case cannot go to trial."
         }
     ]
 },
 {
-    "question":"Why was Umar Khalid invited to Ramjas?",
+    "question":"Why was Umar Khalid invited to Ramjas College?",
     "options":[
         {
             "opt":"He was not invited. He dropped by during the event and started shouting ‘anti-India’ slogans.",
-            "response":"Who told you this? That’s incorrect. Umar Khalid was supposed to speak in a session on “Unveiling the state: Regions in conflict — the war in Adivasi areas,” based on his academic research on Bastar. The college administration had cleared the programme, including Khalid’s session."
+            "response":"Who told you this? That’s incorrect. Umar Khalid was supposed to speak in a session on “Unveiling the state: Regions in conflict — the war in Adivasi areas,” based on his academic research on Bastar. The college administration had cleared the programme, including his session."
         },
         {
             "opt":"He was to invited to speak on Bastar, his area of research.",
-            "response":"Right. Umar Khalid was supposed to speak in a session on “Unveiling the state: Regions in conflict — the war in Adivasi areas,” based on his academic research on Bastar. The college administration had cleared the programme, including Khalid’s session."
+            "response":"Right. Umar Khalid was supposed to speak in a session on “Unveiling the state: Regions in conflict — the war in Adivasi areas,” based on his academic research on Bastar. The college administration had cleared the programme, including his session."
         }
     ]
 },
@@ -81,11 +81,11 @@
     "options": [
         {
             "opt":"Yes",
-            "response":"There is no “right” answer. It depends on your perspective.<br><br>HT doesn’t consider it to be anti-national. <a href='http://www.hindustantimes.com/editorials/is-abvp-a-students-organisation-or-a-bunch-of-hooligans/story-p4sZ5nQnoN0WhmSTHuWUsL.html'>Here</a> is our take."
+            "response":"No, it is not. First, there is no clear definition of “anti-national”. Khalid has not been convicted by the court under sedition charges. In fact, even a chargesheet has not been filed yet to bring the case to trial. Most importantly, “inviting” someone is not anti-national on the part of the host. <br></br>Here is <a href='http://www.hindustantimes.com/editorials/is-abvp-a-students-organisation-or-a-bunch-of-hooligans/story-p4sZ5nQnoN0WhmSTHuWUsL.html'>HT</a>'s take on the Ramjas incident."
         },
         {
             "opt":"No",
-            "response":"There is no “right” answer. It depends on your perspective.<br><br>HT doesn’t consider it to be anti-national. <a href='http://www.hindustantimes.com/editorials/is-abvp-a-students-organisation-or-a-bunch-of-hooligans/story-p4sZ5nQnoN0WhmSTHuWUsL.html'>Here</a> is our take."
+            "response":"No, it is not. First, there is no clear definition of “anti-national”. Khalid has not been convicted by the court under sedition charges. In fact, even a chargesheet has not been filed yet to bring the case to trial. Most importantly, “inviting” someone is not anti-national on the part of the host. <br></br>Here is <a target='_blank' href='http://www.hindustantimes.com/editorials/is-abvp-a-students-organisation-or-a-bunch-of-hooligans/story-p4sZ5nQnoN0WhmSTHuWUsL.html'>HT</a>'s take on the Ramjas incident.<div class='social-shares'><a href='https://www.facebook.com/sharer/sharer.php?u=http://www.hindustantimes.com/interactives/quiz/jnu-ramjas-what-happened' target='_blank'><div class='facebook social'><i class='fa fa-facebook' aria-hidden='true'></i><span>share</span></div></a><a href='http://twitter.com/intent/tweet?url=http://www.hindustantimes.com/interactives/quiz/jnu-ramjas-what-happened&amp;text= Do you think you know about the Ramjas-JNU incidents? Try this quiz. &amp;via=httweets' target='_blank'><div class='twitter social'><i class='fa fa-twitter' aria-hidden='true'></i><span>tweet</span></div></a></div>"
         }
     ]
 }
