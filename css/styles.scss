@@ -530,8 +530,9 @@ p.intro-quiz{
 }
 
 .social-shares{
-    margin: 0 auto 1em auto;
+    margin: 1.5em auto 1em auto;
     text-align: center;
+    font-family: $font;
 }
 
 .social-shares .social{
@@ -583,4 +584,68 @@ p.intro-quiz{
 
 .social-shares .social.whatsapp:hover{
     color: #43D854;
+}
+
+@media(max-width: 700px){
+    .header img{
+        margin-top: 2em;
+    }
+
+    .sentence{
+        padding: 0 0.5em;
+    }
+
+        .header{
+            margin-top: 2em;
+        }
+    .container{
+        padding: 0.5em;
+    }
+    .card{
+        border: none;
+        border-bottom: solid 0.5px #7C7C7C;
+        border-radius: 0;
+        padding: 1em 1em 1.2em 1em;
+        margin: 0.3em 0;
+        text-align: left;
+        width: 100%;
+        display: inline-block;
+        min-height: auto;
+    }
+
+    .badge{
+        width: 80px
+    }
+
+    .badge img{
+        width: 60px
+    }
+
+    .badge p{
+
+        font-size: 0.7em;
+    }
+
+    .social-shares .social.whatsapp{
+        background-color: #43D854;
+        display: inline-block;
+    }
+
+    .social-shares .social{
+        width: auto;
+        padding: 0.2em 0.8em;
+    }
+
+    .social-shares .social i{
+        margin-right: 0;
+    }
+
+    .social-shares .social span{
+        display: none;
+    }
+
+    .social-shares .social{
+        margin: 0 5px;
+        border-radius: 4px;
+    }
 }
